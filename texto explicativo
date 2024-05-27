@@ -1,0 +1,12 @@
+A função minimax está sendo usada para implementar a lógica de Inteligência Artificial (IA) que joga o jogo da velha 
+contra o usuário, é um algoritmo de busca usado em jogos de dois jogadores de soma zero. 
+O objetivo da minimax é determinar a melhor jogada para a máquina, vendo que o usuário também está jogando. 
+
+minimax inicializa best como math.inf
+
+
+1.	Na primeira iteração, é a vez do usuário jogar. A função explora todas as jogadas possíveis do usuário e retorna a melhor pontuação encontrada até o momento.
+2.	Na segunda iteração, é a vez da máquina jogar. A função explora todas as jogadas possíveis da máquina, considerando que ela escolherá a jogada que maximiza sua pontuação.
+3.	Na terceira iteração, é novamente a vez do usuário jogar. A função explora as jogadas do usuário, escolhendo aquela que minimiza sua pontuação.
+4.	Na quarta iteração, é novamente a vez da máquina jogar. A função continua a exploração das jogadas da máquina, buscando maximizar sua pontuação.
+5.	Na quinta iteração, novamente é a vez do usuário jogar. A função continua alternando entre usuário e máquina, explorando todas as possibilidades até uma profundidade definida ou até que o jogo termine.
